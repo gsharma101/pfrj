@@ -9,23 +9,26 @@ const Navbar = () => {
       </div>
 
       <div className="subnavbar">
-        <div>
+        <div className="subnavbar__elements">
           <a href="#home">Home</a>
         </div>
-        <div>
+        <div className="subnavbar__elements">
           <a href="#about">About</a>
         </div>
-        <div>
+        <div className="subnavbar__elements">
           <a href="#education">Education</a>
         </div>
-        <div>
+        <div className="subnavbar__elements">
           <a href="#skills">Skills</a>
         </div>
-        <div>
+        <div className="subnavbar__elements">
           <a href="#techiknow">Tech I Know</a>
         </div>
-        <div>
+        <div className="subnavbar__elements">
           <a href="#projects">Projects</a>
+        </div>
+        <div className="subnavbar__elements">
+          <a href="#projects">Contact Me</a>
         </div>
       </div>
     </div>

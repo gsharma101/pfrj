@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Navbar, Header } from './components';
 
 import './App.scss'
 
@@ -8,6 +8,7 @@ const App = () => {
     return (
         <div className='App'>
             <Navbar />
+            <Header />
         </div>
     )
 }

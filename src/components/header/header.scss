@@ -1,0 +1,13 @@
+.header {
+  //   border: 1px solid red;
+  display: flex;
+  //! Left
+  &__left {
+    border: 1px solid blue;
+    width: 50%;
+  }
+  //! Rigth
+  &__right {
+    border: 2px solid red;
+  }
+}
