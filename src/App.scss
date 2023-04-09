@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//?MEADI QUERY MANAGER
+/*
+0 - 600px Phone
+600 - 900px Tablet portrait
+900 - 1200px Tablet landscape
+[1200 - 1800] is where our normal style apply
+1800px + : Tablet portrait
+?breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+1em  = 16px
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      //!600px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      //!900px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      //!1200px
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {
+      //!1800px
+      @content;
+    }
+  }
+}
+
+html {
+  //This define what 1rem is
+  font-size: 62.5%; //1rem = 10px; 10/16px = 62.5%
+
+  @include respond(tab-land) {
+    // width < 1200
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 56.25%;
+  }
+
+  @include respond(tab-port) {
+    // width < 900
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; //1 rem = 12px, 12/16 = 75%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
