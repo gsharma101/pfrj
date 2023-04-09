@@ -1,18 +1,23 @@
+@import "../../styles/style";
 .navbar {
   display: flex;
   // border: 1px solid red;
   background-color: white;
   color: black;
   justify-content: space-between;
-  padding: 2rem 4rem;
+  padding: 4rem 6rem;
+  @include defaultShadow;
 
   .subnavbar {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: capitalize;
     a {
       text-decoration: none;
-      margin-right: 1rem;
+      margin-right: 1.5rem;
+      color: black;
+      font-weight: 500;
+      cursor: pointer;
     }
   }
 }
