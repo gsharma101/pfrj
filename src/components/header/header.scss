@@ -3,11 +3,25 @@
   display: flex;
   //! Left
   &__left {
-    border: 1px solid blue;
+    // border: 1px solid blue;
     width: 50%;
+    .header__heading {
+      border: 1px solid red;
+      transform: translate(10%, 60%);
+      font-size: 6rem;
+      span {
+        display: block;
+      }
+    }
   }
   //! Rigth
   &__right {
-    border: 2px solid red;
+    // border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 50rem;
+    }
   }
 }
