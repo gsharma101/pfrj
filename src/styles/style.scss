@@ -3,8 +3,18 @@
 
 // ? Variables
 $color-black: #000000;
-
+$color-primary: #0071bc;
 // ? Mixians
 @mixin defaultShadow {
   box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+}
+
+// ? Section heading
+
+.section_heading {
+  text-transform: capitalize;
+  color: $color-primary;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
 }
