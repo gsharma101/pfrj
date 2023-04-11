@@ -2,4 +2,15 @@
 .about {
   border: 1px solid red;
   padding: 4rem 6rem;
+  &__left {
+    width: 50%;
+    border: 1px solid blue;
+    img {
+      width: 30rem;
+      align-items: center;
+    }
+  }
+  &__right {
+    width: 50%;
+  }
 }

@@ -14,7 +14,12 @@ $color-primary: #0071bc;
 .section_heading {
   text-transform: capitalize;
   color: $color-primary;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.section_box {
+  display: flex;
 }
