@@ -10,8 +10,8 @@ const About = () => {
         <div className="about__left">
           <img src={aboutImg} alt="aboutimg" />
         </div>
-        <div className="about__rigth">
-          <h3>I'am Gaurav Sharma</h3>
+        <div className="about__right">
+          <h3 className="para_heading">I'am Gaurav Sharma</h3>
           <p>
             junior software developer from India. I'm deeply passionate about
             software development, computers and cyber security. Apart from that
