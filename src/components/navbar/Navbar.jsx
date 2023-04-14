@@ -22,10 +22,7 @@ const Navbar = () => {
           <a href="#skills">Skills</a>
         </div>
         <div className="subnavbar__elements">
-          <a href="#techiknow">Tech I Know</a>
-        </div>
-        <div className="subnavbar__elements">
-          <a href="#projects">Projects</a>
+          <a href="#techiknow">Projects & Learning</a>
         </div>
         <div className="subnavbar__elements">
           <a href="#projects">Contact Me</a>
