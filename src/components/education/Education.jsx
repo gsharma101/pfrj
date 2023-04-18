@@ -8,11 +8,13 @@ function Education() {
       <div className="section_heading">Education</div>
       <div className="section_box">
         <div className="education__left">
-          <h1 className="para_heading">
+          <h1 className="degree_name">
             Bachelor's Degree In Computer Science & Engineering
           </h1>
-          <h2>Chandigarh Group of Colleges - Landran</h2>
-          <h3>2019 - 2023</h3>
+          <h2 className="college_name">
+            Chandigarh Group of Colleges - Landran
+          </h2>
+          <h3 className="year">2019 - 2023</h3>
         </div>
         <div className="education__right">
           <img src={collegeImg} alt="cgc" />
