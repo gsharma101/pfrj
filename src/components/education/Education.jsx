@@ -4,7 +4,7 @@ import collegeImg from "../../assets/images/cgc.jpg";
 
 function Education() {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <div className="section_heading">Education</div>
       <div className="section_box">
         <div className="education__left">
