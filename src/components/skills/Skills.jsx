@@ -4,17 +4,15 @@ import techLogo from "../../assets/images/tech.jpg";
 
 function Skills() {
   return (
-    <div className="skills" id="skills">
+    <section className="skills" id="skills">
       <div className="section_heading">Skills</div>
-      <div className="section_box">
-        <div className="skills__left">
-          <div className="skill_container"></div>
-        </div>
-        <div className="skills__right">
+      <div className="section__container">
+        <div className="section__container--left"></div>
+        <div className="section__container--right">
           <img src={techLogo} alt="techlogo" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
