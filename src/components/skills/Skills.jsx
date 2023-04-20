@@ -7,8 +7,8 @@ function Skills() {
     <section className="skills" id="skills">
       <div className="section_heading">Skills</div>
       <div className="section__container">
-        <div className="section__container--left"></div>
-        <div className="section__container--right">
+        <div className="section__container--left left"></div>
+        <div className="section__container--right right">
           <img src={techLogo} alt="techlogo" />
         </div>
       </div>

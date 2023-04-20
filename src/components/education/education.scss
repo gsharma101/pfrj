@@ -2,7 +2,7 @@
 
 .education {
   padding: 8rem;
-  &__left {
+  .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@
       font-size: 1.5rem;
     }
   }
-  &__right {
+  .right {
     width: 50%;
     // border: 1px solid blue;
     display: flex;
