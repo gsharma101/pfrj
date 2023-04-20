@@ -4,13 +4,17 @@
 // ? Variables
 $color-black: #000000;
 $color-primary: #0071bc;
+
 // ? Mixians
 @mixin defaultShadow {
   box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
 }
 
-// ? Section heading
+@mixin defaultShadowDark {
+  box-shadow: 0 1rem 3rem rgba($color-black, 0.3);
+}
 
+// ? Section heading
 section {
   // border: 1px solid red;
   padding: 5rem 10rem;

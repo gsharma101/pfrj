@@ -1,6 +1,53 @@
 @import "../../styles/style";
+@import "../../styles/utilities";
 .skills {
   .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // border: 1px solid blue;
+    .skills__box {
+      padding: 3rem;
+      font-size: 2rem;
+      // border: 1px solid red;
+      .skill__data {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        padding: 1.5rem;
+        position: relative;
+        border-radius: 0.5rem;
+        @include defaultShadowDark;
+      }
+      .skill__bar {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: $color-primary;
+        height: 0.5rem;
+        width: 70%;
+        border-radius: 0.5rem;
+        font-size: 4rem;
+        z-index: 400;
+      }
+
+      span {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+
+      .skill__1 {
+        width: 85%;
+      }
+
+      .skill__2 {
+        width: 75%;
+      }
+
+      .skill__3 {
+        width: 65%;
+      }
+    }
   }
   .right {
     display: flex;
