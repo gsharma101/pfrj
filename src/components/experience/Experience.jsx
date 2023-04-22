@@ -5,29 +5,26 @@ function Experience() {
     <section className="experience" id="experience">
       <div className="section_heading">Experience</div>
       <div className="timeline">
-        <div className="outer">
-          <div className="card">
-            <div className="info">
-              <h3 className="title">Title 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="info">
-              <h3 className="title">Title 2</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.{" "}
-              </p>
-            </div>
-          </div>
+        <div className="experiene__box ex__1">
+          <div className="title">Web Developer at greycat digital</div>
+          <div className="timePeriod">Jan 2022 - March 2022</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos
+            debitis quaerat quidem? Corporis fugiat soluta ea totam nostrum
+            eaque odit amet voluptates mollitia nam? Soluta autem eos qui.
+            Adipisci!
+          </p>
+        </div>
+        <div className="line"></div>
+        <div className="experiene__box ex__2">
+          <div className="title">Web Developer at Imagenate Solutions</div>
+          <div className="timePeriod">Nov 2022 - Present</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos
+            debitis quaerat quidem? Corporis fugiat soluta ea totam nostrum
+            eaque odit amet voluptates mollitia nam? Soluta autem eos qui.
+            Adipisci!
+          </p>
         </div>
       </div>
     </section>
