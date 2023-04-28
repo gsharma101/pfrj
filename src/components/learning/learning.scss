@@ -1,0 +1,10 @@
+.learning {
+  .detail__box {
+    display: flex;
+    border: 1px solid red;
+    text-align: center;
+    .details {
+      font-size: 2rem;
+    }
+  }
+}
