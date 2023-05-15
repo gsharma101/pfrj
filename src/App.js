@@ -1,17 +1,16 @@
-import React from 'react';
-import { Navbar, Header, About, Skills, Education, Footer, Experience, Learning } from './components';
+import React from 'react'
+import "./sass/main.scss";
+import { Navbar } from './components';
+import { Header, About, Footer, Experience, Skills, Education, Learning } from './containers';
 
-import './App.scss'
-
-// ! rafce (React functional components)
 const App = () => {
     return (
         <div className='App'>
             <Navbar />
             <Header />
             <About />
-            <Experience />
             <Skills />
+            <Experience />
             <Education />
             <Learning />
             <Footer />
@@ -20,4 +19,3 @@ const App = () => {
 }
 
 export default App
-

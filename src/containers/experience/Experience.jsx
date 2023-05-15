@@ -1,9 +1,10 @@
 import React from "react";
 import "./experience.scss";
+import Heading from "../../components/heading/Heading";
 function Experience() {
   return (
     <section className="experience" id="experience">
-      <div className="section_heading">Experience</div>
+      <Heading heading="Experience" />
       <div className="timeline">
         <div className="experiene__box ex__1">
           <div className="title">Web Developer at greycat digital</div>

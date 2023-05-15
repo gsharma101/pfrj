@@ -1,4 +1,4 @@
-@import "../../styles/style";
+@import "../../sass/main.scss";
 .navbar {
   display: flex;
   // border: 1px solid red;
@@ -21,7 +21,7 @@
     }
     a {
       text-decoration: none;
-      color: black;
+      color: $color-black;
       font-weight: bold;
       cursor: pointer;
     }

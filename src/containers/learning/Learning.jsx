@@ -1,9 +1,10 @@
 import React from "react";
 import "./learning.scss";
+import Heading from "../../components/heading/Heading";
 function Learning() {
   return (
     <section className="learning" id="learning">
-      <div className="section_heading">Learning</div>
+      <Heading heading="My Learnings" />
       <div className="detail__box">
         <p className="details">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea est

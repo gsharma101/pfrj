@@ -1,0 +1,14 @@
+// ? Section heading
+section {
+  // border: 1px solid red;
+  padding: 5rem 10rem;
+}
+.section__container {
+  display: flex;
+  &--left {
+    width: 50%;
+  }
+  &--right {
+    width: 50%;
+  }
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import "./education.scss";
 import collegeImg from "../../assets/images/cgc.jpg";
-
+import Heading from "../../components/heading/Heading";
 function Education() {
   return (
     <section className="education" id="education">
-      <div className="section_heading">Education</div>
+      <Heading heading="Education" />
       <div className="section__container">
         <div className="section__container--left left">
           <h1 className="degree_name">
