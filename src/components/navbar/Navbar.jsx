@@ -16,19 +16,22 @@ const Navbar = () => {
           <a href="#about">About</a>
         </div>
         <div className="subnavbar__elements">
-          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
         </div>
         <div className="subnavbar__elements">
-          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
         </div>
         <div className="subnavbar__elements">
           <a href="#education">Education</a>
         </div>
         <div className="subnavbar__elements">
-          <a href="#learning">Learning</a>
+          <a href="#learning">Certifications</a>
         </div>
         <div className="subnavbar__elements">
-          <a href="#projects">Contact Me</a>
+          <a href="#learning">Projects</a>
+        </div>
+        <div className="subnavbar__elements">
+          <a href="#footer">Contact Me</a>
         </div>
       </div>
     </div>

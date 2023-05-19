@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/heading.png";
-// import { FaGithub } from "react-icons/fa";
+import { Links } from "../../components";
 import "./header.scss";
 
 const Header = () => {
@@ -17,6 +17,9 @@ const Header = () => {
           >
             Download CV
           </a>
+          <div className="header__links u-margin-top-medium">
+            <Links />
+          </div>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ function Experience() {
     <section className="experience" id="experience">
       <Heading heading="Experience" />
       <div className="timeline">
-        <div className="experiene__box ex__1">
+        <div className="experiene__box ex__1 tilt-in-fwd-tr">
           <div className="title">Web Developer at greycat digital</div>
           <div className="timePeriod">Jan 2022 - March 2022</div>
           <p>
