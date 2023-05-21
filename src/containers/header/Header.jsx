@@ -14,6 +14,8 @@ const Header = () => {
           <a
             className="resume"
             href="https://drive.google.com/file/d/1nmbemU-clB9-QE9a4ufEa_5jLk7vzCOn/view"
+            target="_blank"
+            rel="noreferrer"
           >
             Download CV
           </a>
