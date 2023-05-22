@@ -5,6 +5,10 @@
     display: flex;
     justify-content: center;
     width: 50%;
+    align-items: center;
+    @include respond(tab-port) {
+      width: 100%;
+    }
     // border: 1px solid blue;
     img {
       width: 30rem;
@@ -17,6 +21,11 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    @include respond(tab-port) {
+      width: 100%;
+      margin-top: 2rem;
+      text-align: center;
+    }
     // border: 1px solid black;
     .para_heading {
       font-size: 3rem;

@@ -1,6 +1,10 @@
 @import "../../sass/main.scss";
 .project__card {
   width: 35rem;
+  @include respond(tab-port) {
+    width: 90%;
+  }
+  margin-top: 2rem;
   // border: 1px solid red;
   padding: 1rem;
   border-radius: 1rem;

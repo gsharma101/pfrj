@@ -1,6 +1,9 @@
 @import "../../sass/main.scss";
 .links {
   font-size: 3rem;
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
   // border: 1px solid red;
   display: inline-block;
   a {

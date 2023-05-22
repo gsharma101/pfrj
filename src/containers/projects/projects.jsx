@@ -32,7 +32,7 @@ const projects = () => {
           }
         />
       </div>
-      <div className="row u-margin-top-medium">
+      <div className="row u-margin-top-medium u-margin-bottom-medium">
         <ProjectCards
           img={Game}
           name={"Guess My Number"}

@@ -2,6 +2,10 @@
 
 .certification {
   width: 35rem;
+  @include respond(tab-port) {
+    width: 90%;
+    margin-top: 2rem;
+  }
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
