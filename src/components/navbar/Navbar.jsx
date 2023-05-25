@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.scss";
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -41,33 +43,47 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className="mobile__menu">
-        <AiOutlineMenu />
-        <div className="mobile__menu--list">
-          <div className="mobile__menu--elements">
-            <a href="#home">Home</a>
+        {toggleMenu ? (
+          <RiCloseLine
+            color="#000000"
+            size={20}
+            onClick={() => setToggleMenu(false)}
+          />
+        ) : (
+          <RiMenu3Line
+            color="#000000"
+            size={20}
+            onClick={() => setToggleMenu(true)}
+          />
+        )}
+        {toggleMenu && (
+          <div className="mobile__menu--list">
+            <div className="mobile__menu--elements">
+              <a href="#home">Home</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#about">About</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#skills">Skills</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#experience">Experience</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#education">Education</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#learning">Certifications</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#projects">Projects</a>
+            </div>
+            <div className="mobile__menu--elements">
+              <a href="#footer">Contact Me</a>
+            </div>
           </div>
-          <div className="mobile__menu--elements">
-            <a href="#about">About</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#skills">Skills</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#experience">Experience</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#education">Education</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#learning">Certifications</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#projects">Projects</a>
-          </div>
-          <div className="mobile__menu--elements">
-            <a href="#footer">Contact Me</a>
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );
