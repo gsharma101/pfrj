@@ -1,35 +1,34 @@
 import React from "react";
-import "./experience.scss";
 import Heading from "../../components/heading/Heading";
-function Experience() {
+import { ExperienceCard } from "../../components";
+import "./experience.scss";
+
+const Experience = () => {
   return (
     <section className="experience" id="experience">
       <Heading heading="Experience" />
       <div className="timeline">
-        <div className="experiene__box ex__1 tilt-in-fwd-tr">
-          <div className="title">Web Developer at greycat digital</div>
-          <div className="timePeriod">Jan 2022 - March 2022</div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos
-            debitis quaerat quidem? Corporis fugiat soluta ea totam nostrum
-            eaque odit amet voluptates mollitia nam? Soluta autem eos qui.
-            Adipisci!
-          </p>
-        </div>
+        <ExperienceCard
+          title={"Web Developer Intern at GreyCat Digital"}
+          timePeriod={"Jan 2022 - March 2022"}
+          description={
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          }
+          link={
+            "https://drive.google.com/file/d/1O9-JEHLyVOvYNv1sdEyWiY4LXYQXWh2H/view"
+          }
+        />
         <div className="line"></div>
-        <div className="experiene__box ex__2">
-          <div className="title">Web Developer at Imagenate Solutions</div>
-          <div className="timePeriod">Nov 2022 - Present</div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos
-            debitis quaerat quidem? Corporis fugiat soluta ea totam nostrum
-            eaque odit amet voluptates mollitia nam? Soluta autem eos qui.
-            Adipisci!
-          </p>
-        </div>
+        <ExperienceCard
+          title={"Web Developer at Imagenate Solutions"}
+          timePeriod={"Nov 2022 - Aprial 2023"}
+          description={
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          }
+        />
       </div>
     </section>
   );
-}
+};
 
 export default Experience;

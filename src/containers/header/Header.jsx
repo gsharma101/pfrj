@@ -9,7 +9,8 @@ const Header = () => {
       <div className="header__left">
         <div className="header__left--box">
           <h1 className="header__heading">
-            Hi, 👋 I'am <span>Gaurav Sharma</span>
+            Hi, <div className="wave">👋</div> I'am{" "}
+            <span className="next">Gaurav Sharma</span>
           </h1>
           <a
             className="resume"
