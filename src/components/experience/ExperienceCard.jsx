@@ -4,7 +4,7 @@ import "./experiencecard.scss";
 const ExperienceCard = ({ title, timePeriod, description, link }) => {
   return (
     <div className="timeline">
-      <div className="experiene__box ex__1">
+      <div className="experiene__box">
         <div className="title">{title}</div>
         <div className="timePeriod">{timePeriod}</div>
         <p>{description}</p>

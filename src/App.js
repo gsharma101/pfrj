@@ -10,7 +10,7 @@ const App = () => {
             <Header />
             <About />
             <Skills />
-            <Experience />
+            {/* <Experience /> */}
             <Education />
             <Learning />
             <Projects />

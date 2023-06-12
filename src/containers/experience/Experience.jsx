@@ -12,7 +12,7 @@ const Experience = () => {
           title={"Web Developer Intern at GreyCat Digital"}
           timePeriod={"Jan 2022 - March 2022"}
           description={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "In my 3th year of college i did an internship for greycat digital as a  Web developer my day to day task involve development and handling of websites the tech stack used was HTML, CSS/SCSS, JavaScript, PHP and MySQL"
           }
           link={
             "https://drive.google.com/file/d/1O9-JEHLyVOvYNv1sdEyWiY4LXYQXWh2H/view"
@@ -20,10 +20,13 @@ const Experience = () => {
         />
         <div className="line"></div>
         <ExperienceCard
-          title={"Web Developer at Imagenate Solutions"}
+          title={"Full-Stack Developer at Imagenate Solutions"}
           timePeriod={"Nov 2022 - Aprial 2023"}
           description={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "In my 4th year of college i did an internship for Imagenate Solutions as a  Full-Stack Web developer my day to day task involve development and handling of websites the tech stack used was HTML, CSS/SCSS, JavaScript, React, PHP and MySQL, Wordpress and etc"
+          }
+          link={
+            "https://drive.google.com/file/d/1APa0eb-aDXA4yS_eY7JZVU5_4aUzEgoB/view?usp=sharing"
           }
         />
       </div>
