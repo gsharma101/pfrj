@@ -5,6 +5,11 @@ import "./navbar.scss";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMoon, setToggleSun] = useState(false);
+
+  function darkMode() {
+    setToggleSun(true);
+  }
 
   return (
     <div className="navbar">
@@ -39,7 +44,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className="lights">
-        <BsFillMoonFill />
+        {toggleMoon ? (
+          <BsFillSunFill
+            color="#000000"
+            size={20}
+            onClick={() => setToggleSun(false)}
+          />
+        ) : (
+          <BsFillMoonFill color="#000000" size={20} onClick={darkMode} />
+        )}
       </div>
       {/* Mobile Menu */}
       <div className="mobile__menu">
