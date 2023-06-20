@@ -29,6 +29,9 @@
         @include respond(tab-port) {
           font-size: 4rem;
         }
+        @include respond(tab-land) {
+          font-size: 5rem;
+        }
         span {
           display: block;
           color: #0071bc;
@@ -66,6 +69,9 @@
     justify-content: center;
     img {
       width: 40rem;
+      @include respond(tab-land) {
+        width: 60%;
+      }
       @include respond(tab-port) {
         width: 80%;
       }
