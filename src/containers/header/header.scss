@@ -68,12 +68,9 @@
     display: flex;
     justify-content: center;
     img {
-      width: 40rem;
+      width: 80%;
       @include respond(tab-land) {
         width: 60%;
-      }
-      @include respond(tab-port) {
-        width: 80%;
       }
     }
   }
